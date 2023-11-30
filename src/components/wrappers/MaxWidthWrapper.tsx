@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import { cn } from "../../lib/utils";
 
-function MaxWidthWrapper({
+export default function MaxWidthWrapper({
   className,
   children,
 }: {
@@ -19,5 +19,3 @@ function MaxWidthWrapper({
     </div>
   );
 }
-
-export default MaxWidthWrapper;
